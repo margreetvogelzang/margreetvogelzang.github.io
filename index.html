@@ -1,12 +1,29 @@
- 
-<script type="text/javascript">
+<body>
 
-var urls = new Array();
-urls[0] = "http://spellout.net/ibexexps/margreet/ReadInPretest1a/experiment.html";
-urls[1] = "http://spellout.net/ibexexps/margreet/ReadInPretest1b/experiment.html";
+<div style="text-align: center; border: 0px solid;padding: 200px 0;">
+<button onclick="native()"><p style="font-size:18px;padding: 0 5px">I am a native speaker of English</p></button> &emsp;&emsp;
 
-var random = Math.floor(Math.random()*urls.length);
+<button onclick="nonnative()"><p style="font-size:18px;padding: 0 5px">I am a native speaker of Spanish</p></button>
+</div>
 
-window.location = urls[random];
-
+<script>
+function native() {
+  	var urls = new Array();
+	urls[0] = "http://spellout.net//ibexexps/margreet/TextReading_L1_a/experiment.html";
+	urls[1] = "http://spellout.net/ibexexps/margreet/TextReading_L1_b/experiment.html";
+	var random = Math.floor(Math.random()*urls.length);
+	window.location = urls[random];
+}
 </script>
+
+<script>
+function nonnative() {
+	var urls = new Array();
+	urls[0] = "http://spellout.net//ibexexps/margreet/TextReading_L2_a/experiment.html";
+	urls[1] = "http://spellout.net/ibexexps/margreet/TextReading_L2_b/experiment.html";
+	var random = Math.floor(Math.random()*urls.length);
+	window.location = urls[random];
+}
+</script>
+
+</body>
