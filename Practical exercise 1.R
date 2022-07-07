@@ -21,7 +21,7 @@ library(tidyverse)
 # 5. Calculate the mean reading time per condition, per participant, and per item.
 # These can be three separate calculations
 
-# 6. ???itemID??? should be a categorical variable, not an integer. Recode this
+# 6. 'itemID' should be a categorical variable, not an integer. Recode this
 
 # 7. Plot a boxplot of the reading times. How many outliers does this function identify?
 
