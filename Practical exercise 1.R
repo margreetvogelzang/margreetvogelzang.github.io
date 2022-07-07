@@ -12,7 +12,7 @@ library(tidyverse)
 # 1. Load the dataset psycholinguistics_data.csv
 # you can find the dataset at margreetvogelzang.github.io/
 
-# 2. Remove the first column (???X???)
+# 2. Remove the first column ('X')
 
 # 3. Which conditions are there? What do you think they may mean?
 
