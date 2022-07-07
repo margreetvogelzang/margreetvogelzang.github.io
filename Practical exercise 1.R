@@ -2,13 +2,17 @@
 # 08 July 2022
 # Margreet Vogelzang
 
+# note: if you don't have these libraries yet, you need to install them first with install.packages("packageName")
+library(data.table)
+library(tidyverse)
+
 # Practical exercise 1
 # These exercises are based on the sessions 'Loading and exploring datasets' and 'Data transformation and coding'
 
 # 1. Load the dataset psycholinguistics_data.csv
 # you can find the dataset at margreetvogelzang.github.io/
 
-# 2. Remove the first two columns (names with ???X???)
+# 2. Remove the first column (???X???)
 
 # 3. Which conditions are there? What do you think they may mean?
 
